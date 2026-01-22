@@ -262,7 +262,7 @@
 
 ## 3. Moduł koszyka (do automatyzacji)
 
-### 3.1 Dodawanie, usuwanie zmiana
+### 3.1 Dodawanie, usuwanie, zmiana
 
 #### TC-011 – Dodawanie produktu do koszyka 
 **Typ testu:**  Funkcjonalny
@@ -288,6 +288,70 @@
 - Zaliczony
 
 ---
+
+#### TC-012 – Usuwanie produktu z koszyka
+**Typ testu:**  Funkcjonalny
+**Priorytet:**  Wysoki
+
+**Warunki wstępne:**  
+- użytkownik ma produkt dodany do koszyka
+
+**Kroki:**
+1. Kliknij przycisk "Cart"
+1. Kliknij ikonę kosza przy produkcie
+
+**Oczekiwany rezultat:**  
+- produkt zostaje usunięty z koszyka i znika z listy produktów w "Shopping-cart Summary" 
+
+**Wynik**  
+- Zaliczony
+
+---
+
+#### TC-013 – Zmiana ilości produktów w koszyku (ikona plusa)
+**Typ testu:**  Funkcjonalny
+**Priorytet:**  Wysoki
+
+**Warunki wstępne:**  
+- użytkownik ma produkt dodany do koszyka
+
+**Kroki:**
+1. Kliknij przycisk "Cart"
+1. Kliknij ikonę plusa w kolumnie Qty
+
+**Oczekiwany rezultat:**  
+- ilość produktów w koszyku zmienia się na dwa
+- zmienia się cena w kolumnie total 
+
+**Wynik**  
+- Zaliczony
+
+---
+
+#### TC-014 – Zmiana ilości produktów w koszyku (wpisywanie ręczne)
+**Typ testu:**  Funkcjonalny
+**Priorytet:**  Wysoki
+
+**Warunki wstępne:**  
+- użytkownik ma produkt dodany do koszyka
+
+**Kroki:**
+1. Kliknij przycisk "Cart"
+1. Wpisz cyfrę 2 w polu nad przyciskiem plus w kolumnie Qty
+1. Kliknij enter
+
+**Oczekiwany rezultat:**  
+- ilość produktów w koszyku zmienia się na dwa
+- zmienia się cena w kolumnie total 
+
+**Wynik**  
+- Niezaliczony 
+
+**Defekt** BUG-003: Wyświetlana jest błędna ilość produktów po wpisaniu liczby w polu Qty i kliknięciu enter
+
+---
+
+
 
 
 
