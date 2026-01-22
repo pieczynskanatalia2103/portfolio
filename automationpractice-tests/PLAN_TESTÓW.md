@@ -55,12 +55,11 @@ Weryfikacja funkcjonalności głównych modułów strony automationpractice.pl o
 - Logowanie z niepoprawnymi danymi
 - Wylogowanie użytkownika 
 
-### 4.2 Moduł Produktów i Katalogu
+### 4.2 Moduł Produktów i Katalogu (testy automatyczne Cypress)
 - Wyświetlanie listy produktów
 - Filtrowanie produktów (kategoria, cena, ocena)
 - Sortowanie produktów
 - Wyszukiwanie produktów
-- Wyświetlanie szczegółów produktu
 
 ### 4.3 Moduł Koszyka
 - Dodawanie produktu do koszyka

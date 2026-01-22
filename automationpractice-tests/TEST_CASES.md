@@ -10,7 +10,7 @@
 **Priorytet:** Wysoki
 
 **Warunki wstępne:**
-- Użytkownik nie posiada konta
+- Brak specjalnych warunków
 
 **Dane testowe:**
 - Email: test.user1@mail.com
@@ -40,7 +40,7 @@
 **Priorytet:** Wysoki
 
 **Warunki wstępne:**
-- Użytkownik nie posiada konta
+- Brak specjalnych warunków
 
 **Dane testowe:**
 - Email: test@test.com
@@ -66,7 +66,7 @@
 **Priorytet:** Średni
 
 **Warunki wstępne:**
-- Użytkownik nie posiada konta
+- Brak specjalnych warunków
 
 **Dane testowe:**
 - Email: test.user2@mail.com
@@ -120,7 +120,6 @@
 **Priorytet:** Średni
 
 **Warunki wstępne:**
-- Użytkownik nie posiada konta
 - Użytkownik wpisał poprawny adres e-mail i przeszedł na stronę "Create an account"
 
 **Dane testowe:**
@@ -259,4 +258,36 @@
 
 **Wynik:** Zaliczony
 
-## 2. Moduł Produktów i Katalogu
+## 2. Moduł Produktów i Katalogu (testy automatyczne Cypress)
+
+## 3. Moduł koszyka (do automatyzacji)
+
+### 3.1 Dodawanie, usuwanie zmiana
+
+#### TC-011 – Dodawanie produktu do koszyka 
+**Typ testu:**  Funkcjonalny
+**Priorytet:**  Wysoki
+
+**Warunki wstępne:**  
+- Brak specjalnych warunków
+
+**Kroki:**
+1. Otwórz stronę główną
+1. W polu wyszukiwania wpisz "Printed Chiffon Dress"
+1. Kliknij enter lub ikonę lupy
+1. Najedź na znaleziony przedmiot
+1. Kliknij na zdjęcie
+1. W rozwijanej liście Size wybierz "L"
+1. Kliknij "Add to cart"
+
+**Oczekiwany rezultat:**  
+- pordukt został dodany do koszyka
+- wyświetla się komunikat "Product successfully added to your shopping cart"
+
+**Wynik**  
+- Zaliczony
+
+---
+
+
+

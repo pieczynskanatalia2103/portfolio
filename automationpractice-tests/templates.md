@@ -21,7 +21,7 @@ szablon BUG
 
 szablon TC
 
-### TC-00 – 
+#### TC-0 – 
 **Typ testu:**  
 **Priorytet:**  
 
@@ -39,3 +39,6 @@ szablon TC
 
 **Wynik**  
 - Zaliczony
+
+---
+
