@@ -21,7 +21,7 @@ Ten projekt obejmuje kompleksowe testowanie portalu e-commerce **automationpract
 |------|--------|-------|
 | Faza 1 | Zakończona | Testowanie rejestracji i logowania |
 | Faza 2 | W trakcie | Testowanie katalogu produktów |
-| Faza 3 | Planowana | Testowanie koszyka |
+| Faza 3 | W trakcie | Testowanie koszyka |
 | Faza 4 | Planowana | Testowanie procesu zamówienia |
 | Faza 5 | Planowana | Testowanie konta użytkownika |
 
