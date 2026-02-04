@@ -261,7 +261,7 @@
 ## 2. Moduł Produktów i Katalogu (testy automatyczne Cypress)
 
 ## 3. Moduł koszyka (do automatyzacji)
-
+  
 ### 3.1 Dodawanie, usuwanie, zmiana
 
 #### TC-011 – Dodawanie produktu do koszyka 

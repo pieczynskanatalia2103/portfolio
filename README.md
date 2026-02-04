@@ -1,6 +1,6 @@
 # Projekt Testowania - AutomationPractice.pl
 
-## Status: W TRAKCIE REALIZACJI
+## Status: Środowisko testowe zostało wyłączone, w związku z czym dalsze testy nie są obecnie możliwe
 
 Ten projekt obejmuje kompleksowe testowanie portalu e-commerce **automationpractice.pl**.
 
@@ -20,10 +20,10 @@ Ten projekt obejmuje kompleksowe testowanie portalu e-commerce **automationpract
 | Faza | Status | Moduł |
 |------|--------|-------|
 | Faza 1 | Zakończona | Testowanie rejestracji i logowania |
-| Faza 2 | W trakcie | Testowanie katalogu produktów |
-| Faza 3 | W trakcie | Testowanie koszyka |
-| Faza 4 | Planowana | Testowanie procesu zamówienia |
-| Faza 5 | Planowana | Testowanie konta użytkownika |
+| Faza 2 | Zakończona | Testowanie katalogu produktów-Cypress |
+| Faza 3 | Anulowana | Testowanie koszyka |
+| Faza 4 | Anulowana | Testowanie procesu zamówienia |
+| Faza 5 | Anulowana | Testowanie konta użytkownika |
 
 ---
 
